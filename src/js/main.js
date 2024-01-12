@@ -19,4 +19,14 @@ createApp({
       ],
     };
   },
+  methods: {
+    getDiscs() {
+      axios.get('server.php').then((response) => {
+        console.log({ response });
+      });
+    },
+  },
+  created() {
+    this.getDiscs();
+  },
 }).mount('#app');
