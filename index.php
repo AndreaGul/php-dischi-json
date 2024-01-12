@@ -15,11 +15,21 @@
     <!-- foglio di stile -->
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
-  <body>
+  <body class="bg-secondary"> 
     <div id="app">
-      <ul>
-        <li v-for="disc in discs">{{disc.disco}}</li>
-      </ul>
+      <main >
+        <div class="container ">
+       <ul class=" list-disc row g-4 m-2">
+          <li  class="col-12 col-lg-6  text-center " v-for="disc in discs">
+            <div class="bg-secondary-subtle">
+              <h2>{{disc.disco}}</h2>
+              <p>{{disc.img}}</p>
+          </li>
+        </ul>
+     </div>
+      </main>
+     
+       
     </div>
 
     <!-- vue js -->
