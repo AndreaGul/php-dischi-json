@@ -13,6 +13,7 @@ createApp({
         this.discs = response.data;
       });
     },
+    
   },
   created() {
     this.getDiscs();
