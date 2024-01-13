@@ -10,6 +10,15 @@ $database = file_get_contents(__DIR__ . '/dischi.json');
 
 $discs = json_decode($database);
 
+if(isset($_GET['index']) && $_GET['index']!== ''){
+  $index= $_GET['index'];
+
+  $current_disc = $discs[$index];
+  header('Content-type: application/json');
+  echo json_encode($current_disc);
+  die;
+
+}
 
 //per poi dopo eventuali cambiamento alla stuttura php trasformiamo la stuttura della pagina in modo tale che legga il file come un json
 

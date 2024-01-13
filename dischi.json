@@ -1,44 +1,43 @@
-
 [
   {
     "title": "New Jersey",
     "artist": "Bon Jovi",
-    "realesed": 1988,
+    "released": 1988,
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Bon_Jovi_New_Jersey.jpg/220px-Bon_Jovi_New_Jersey.jpg",
     "description": "Rilasciato nel 1988, 'New Jersey' rappresenta il quarto album in studio di Bon Jovi, arricchito da potenti ballate rock e ritmi incalzanti che hanno segnato l'epoca."
   },
   {
     "title": "Live at Wembley 86",
     "artist": "Queen",
-    "realesed": 1992,
+    "released": 1992,
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Queen_Live_At_Wembley_%2786.png/220px-Queen_Live_At_Wembley_%2786.png",
     "description": "Un emblematico concerto live dei Queen, 'Live at Wembley 86' cattura l'energia e il carisma della band durante il Magic Tour, poco prima della morte di Freddie Mercury."
   },
   {
     "title": "Ten's Summoner's Tales",
     "artist": "Sting",
-    "realesed": 1993,
+    "released": 1993,
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sting_-_Ten_Summoner%27s_Tales.png/220px-Sting_-_Ten_Summoner%27s_Tales.png",
     "description": "Il terzo album solista di Sting, 'Ten's Summoner's Tales', esplora temi della vita, dell'amore e della morale con un sound distintivo che fonde rock, folk e jazz."
   },
   {
     "title": "Steve Gadd band",
     "artist": "Steve Gadd Band",
-    "realesed": 2018,
+    "released": 2018,
     "img": "https://i.scdn.co/image/ab67616d00001e0203cea6838961201fb58bea4f",
     "description": "Con l'album omonimo, la Steve Gadd Band ci porta in un viaggio attraverso il jazz contemporaneo, dimostrando la maestria e il talento di uno dei più grandi batteristi viventi."
   },
   {
     "title": "Brave new World",
     "artist": "Iron Maiden",
-    "realesed": 2000,
+    "released": 2000,
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Iron_Maiden_-_Brave_New_World.jpg/220px-Iron_Maiden_-_Brave_New_World.jpg",
     "description": "Rappresentando una rinascita per gli Iron Maiden, 'Brave New World' unisce l'energia del metal classico con nuove sonorità, segnando il ritorno del cantante Bruce Dickinson."
   },
   {
     "title": "One more car, one more rider",
     "artist": "Eric Clapton",
-    "realesed": 2002,
+    "released": 2002,
     "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Eric_Clapton_OMCOMR.jpg/220px-Eric_Clapton_OMCOMR.jpg",
     "description": "'One More Car, One More Rider' cattura la leggendaria performance live di Eric Clapton, con classici della sua carriera e magistrali assoli di chitarra."
   }

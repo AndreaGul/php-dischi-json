@@ -4,6 +4,7 @@ createApp({
   data() {
     return {
       discs: [],
+      currentDisc: null,
     };
   },
   methods: {
@@ -13,7 +14,12 @@ createApp({
         this.discs = response.data;
       });
     },
-    
+    viewDisc(index) {
+      axios.get('server.php', { params: { index } }).then((response) => {
+        console.log(response);
+        this.currentDisc = response.data;
+      });
+    },
   },
   created() {
     this.getDiscs();

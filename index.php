@@ -18,15 +18,20 @@
       <div class="container text-white">
         <ul class=" list-disc row g-5  m-2 list-unstyled ">
           <li class="col-12 col-sm-6 col-lg-4  text-center " v-for="(disc, idex) in discs">
-            <div class="ag-bg-card-color py-3 px-4 h-100 rounded">
+            <div class="ag-bg-card-color py-3 px-4 h-100 rounded d-flex flex-column">
               <img v-bind:src="disc.img" class="container-fluid" alt="">
-              <h3 class="mt-3">{{disc.title}}</h3>
-
+              <h3 class="mt-3 flex-grow-1">{{disc.title}}</h3>
+              <button @click="viewDisc(idex) "class="btn text-white ag-bg-color w-100  text-uppercase border border-light ">info</button>
+              
             </div>
-
+            
           </li>
         </ul>
-
+        <div v-if="currentDisc">
+                <h5>{{currentDisc.artist}}</h5>
+                <h6>{{currentDisc.released}}</h5>
+                <p>{{currentDisc.description}}</p>
+        </div>
       </div>
     </main>
 
