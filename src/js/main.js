@@ -5,6 +5,7 @@ createApp({
     return {
       discs: [],
       currentDisc: null,
+      currentInfo: null,
     };
   },
   methods: {
@@ -15,13 +16,16 @@ createApp({
       });
     },
     viewDisc(index) {
+      this.currentInfo = index;
       axios.get('server.php', { params: { index } }).then((response) => {
         console.log(response);
         this.currentDisc = response.data;
       });
+      console.log(this.currentInfo);
     },
   },
   created() {
     this.getDiscs();
+    console.log(this.currentInfo);
   },
 }).mount('#app');

@@ -1,14 +1,17 @@
 :root {
   --ag-bg-color-blue: #1d2d3c;
-  
+
   --ag-bg-card-color-blue: #112030;
 }
 
-.ag-bg-color{
+.ag-bg-color {
   background-color: var(--ag-bg-color-blue);
-
 }
 
-.ag-bg-card-color{
-   background-color: var(--ag-bg-card-color-blue);
+.ag-bg-card-color {
+  background-color: var(--ag-bg-card-color-blue);
+}
+
+.stardart-height {
+  height: 550px;
 }
